@@ -163,7 +163,7 @@ h3 {
   margin: 20px 0;
 }
 
-.price-list > div > img {
+.price-list > .pointer > div > img {
   float: right;
 }
 

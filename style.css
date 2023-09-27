@@ -126,7 +126,7 @@ hr {
   display: flex;
   justify-content: center;
   gap: 40px;
-  padding: 80px 0 80px 0;
+  padding: 80px 0;
 }
 
 .social-media > a > img {
@@ -195,7 +195,7 @@ img[alt='price_tag'] {
 
 /* =============== Product Page ================= */
 
-.olaplex-container {
+.olaplex-container, .wella-container {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -209,14 +209,6 @@ img[alt='price_tag'] {
 
 .olaplex-desc > p, .wella-desc > p {
   margin: 20px auto;
-}
-
-.wella-container {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  margin: 40px 20%;
-  line-height: 150%;
 }
 
 /* =============== Contact Page ================= */

@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Dosis", sans-serif;
+  -webkit-top-highlight-color: transparent;
 }
 
 body {
@@ -12,6 +13,10 @@ body {
 
 nav {
   text-align: center;
+}
+
+#menu-btn, .nav-links > img {
+  display: none;
 }
 
 .logo {
@@ -188,26 +193,36 @@ h3 {
   font-size: 20px;
 }
 
-img[alt='price_tag'] {
+img[alt="price_tag"] {
   width: 50px;
   margin: 20px;
 }
 
 /* =============== Product Page ================= */
 
-.olaplex-container, .wella-container {
+.olaplex-container {
+  margin: 10px 20%;
+}
+
+.wella-container {
+  margin: 40px 20%;
+}
+
+.olaplex-container,
+.wella-container {
   display: flex;
   align-items: center;
   gap: 30px;
-  margin: 40px 20%;
   line-height: 150%;
 }
 
-.olaplex-desc, .wella-desc {
+.olaplex-desc,
+.wella-desc {
   font-size: 25px;
 }
 
-.olaplex-desc > p, .wella-desc > p {
+.olaplex-desc > p,
+.wella-desc > p {
   margin: 20px auto;
 }
 

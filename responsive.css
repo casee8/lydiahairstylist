@@ -3,7 +3,7 @@
     display: none;
   }
 
-  #menu-btn {
+  #menu-btn-container {
     display: block;
     position: absolute;
     z-index: 3;
@@ -12,7 +12,7 @@
     cursor: pointer;
   }
 
-  #menu-btn > img {
+  #menu-btn-container > img {
     width: 40px;
   }
 
@@ -155,3 +155,164 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .hidden {
+    display: none;
+  }
+
+  #menu-btn-container {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+  }
+
+  #menu-btn-container > img {
+    width: 40px;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10px;
+    background-color: #e4dada;
+    border-bottom: 1px solid #6f5253;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 2px 30px #6f5253;
+  }
+
+  .nav-links > a {
+    position: relative;
+    z-index: 3;
+    margin: 10px auto 10px auto;
+    font-size: 23px;
+    font-weight: 800;
+    background-color: rgba(228, 218, 218, 0.8);
+    border-radius: 5px;
+    padding: 3px;
+  }
+
+  .nav-links > img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: auto;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .intro {
+    margin: 0 5%;
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  .img-grid-container {
+    margin: auto 5%;
+  }
+
+  .img-grid1 {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-bottom: 10px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+  .div2 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .div3 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .img-grid2 {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .div4 {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+  .div5 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .div6 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .social-media {
+    gap: 30px;
+    padding: 20px 0;
+  }
+
+  /* =============== Prices Page ================= */
+
+  h1 {
+    font-size: 50px;
+    padding: 0 0 30px 0;
+  }
+
+  .price-list {
+    margin: auto 5%;
+  }
+
+  .discounts {
+    font-size: 18px;
+  }
+
+  /* =============== Product Page ================= */
+
+  .olaplex-container {
+    flex-direction: column-reverse;
+    margin: 0 5% 40px 5%;
+    gap: 0;
+  }
+
+  .wella-container {
+    flex-direction: column;
+    margin: 40px 5%;
+    gap: 0;
+  }
+
+  .olaplex-container > img,
+  .wella-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .olaplex-desc,
+  .wella-desc {
+    font-size: 18px;
+  }
+
+  /* =============== Contact Page ================= */
+
+  .call-email {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* 320px — 480px: Mobile devices */
+/* 481px — 768px: iPads, Tablets */
+/* 769px — 1024px: Small screens, laptops */
+/* 1025px — 1200px: Desktops, large screens */
+/* 1201px and more —  Extra large screens, TV */

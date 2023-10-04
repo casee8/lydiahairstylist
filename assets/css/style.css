@@ -22,7 +22,8 @@ nav {
   text-align: center;
 }
 
-#menu-btn-container, .nav-links > img {
+#menu-btn-container,
+.nav-links > img {
   display: none;
 }
 
@@ -175,6 +176,20 @@ h3 {
   margin: 20px 0;
 }
 
+@keyframes openPos {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.openPosDetails {
+  transform: rotate(180deg);
+  animation: openPos 0.2s;
+}
+
 .price-list > .pointer > div > img {
   float: right;
 }
@@ -266,4 +281,15 @@ img[alt="price_tag"] {
 
 .contact-btn > a {
   font-size: 20px;
+}
+
+/* =============== Animation ================= */
+
+@keyframes openMenu {
+  from {
+    top: -250px;
+  }
+  to {
+    top: 0px;
+  }
 }

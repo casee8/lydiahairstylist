@@ -150,6 +150,10 @@ footer > p {
   text-align: center;
 }
 
+.version {
+  font-size: 10px;
+}
+
 /* =============== Prices Page ================= */
 
 h1 {

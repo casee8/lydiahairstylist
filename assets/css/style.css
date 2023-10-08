@@ -16,6 +16,10 @@ body {
   font-family: "Dosis", sans-serif;
   /* font-size: 1rem; */
   -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  touch-action: none;
 }
 
 nav {

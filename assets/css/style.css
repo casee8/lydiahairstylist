@@ -178,9 +178,10 @@ h1 {
   padding: 10px 0;
 }
 
-h3 {
+.desc-title {
   display: inline;
   margin: 20px 0;
+  font-weight: 800;
 }
 
 @keyframes openPos {

@@ -4,6 +4,7 @@ const menuBtnCont = document.querySelector("#menu-btn-container");
 const menuBtn = document.querySelector("#menu-btn");
 const mainElement = document.querySelector("main");
 const footerElement = document.querySelector("footer");
+const cookieBtn = document.querySelector("#cookie-btn");
 let isMenuOpen = false;
 
 // Add a click event listener to each pointer element
@@ -49,4 +50,13 @@ footerElement.addEventListener("click", () => {
     mobileMenu.classList.add("hidden");
     menuBtn.src = "./assets/media/svg/menu.svg";
   }
+});
+
+// Show cookie notes only on hover over the element
+cookieBtn.addEventListener("mouseover", () => {
+  document.querySelector(".cookie-desc").classList.remove("hidden-desktop");
+});
+
+cookieBtn.addEventListener("mouseout", () => {
+  document.querySelector(".cookie-desc").classList.add("hidden-desktop");
 });

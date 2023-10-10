@@ -28,9 +28,11 @@ menuBtnCont.addEventListener("click", () => {
   mobileMenu.classList.toggle("hidden");
   if (!mobileMenu.classList.contains("hidden")) {
     menuBtn.src = "./assets/media/svg/close.svg";
+    menuBtn.alt = 'close menu button'
     isMenuOpen = true;
   } else {
     menuBtn.src = "./assets/media/svg/menu.svg";
+    menuBtn.alt = 'menu button'
     isMenuOpen = false;
   }
 });
@@ -52,11 +54,7 @@ footerElement.addEventListener("click", () => {
   }
 });
 
-// Show cookie notes only on hover over the element
-cookieBtn.addEventListener("mouseover", () => {
-  document.querySelector(".cookie-desc").classList.remove("hidden-desktop");
-});
-
-cookieBtn.addEventListener("mouseout", () => {
-  document.querySelector(".cookie-desc").classList.add("hidden-desktop");
+// Toggle cookie note
+cookieBtn.addEventListener("click", () => {
+  document.querySelector(".cookie-desc").classList.toggle("hidden-desktop");
 });

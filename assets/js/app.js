@@ -28,11 +28,11 @@ menuBtnCont.addEventListener("click", () => {
   mobileMenu.classList.toggle("hidden");
   if (!mobileMenu.classList.contains("hidden")) {
     menuBtn.src = "./assets/media/svg/close.svg";
-    menuBtn.alt = 'close menu button'
+    menuBtn.alt = "close menu button";
     isMenuOpen = true;
   } else {
     menuBtn.src = "./assets/media/svg/menu.svg";
-    menuBtn.alt = 'menu button'
+    menuBtn.alt = "menu button";
     isMenuOpen = false;
   }
 });

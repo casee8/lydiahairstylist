@@ -1,27 +1,9 @@
-const serviceGroups = document.querySelectorAll(".service-groups");
 const mobileMenu = document.querySelector("#mobile-menu");
 const menuBtnCont = document.querySelector("#menu-btn-container");
 const menuBtn = document.querySelector("#menu-btn");
 const mainElement = document.querySelector("main");
 const footerElement = document.querySelector("footer");
-const cookieBtn = document.querySelector("#cookie-btn");
 let isMenuOpen = false;
-
-// Add a click event listener to each pointer element
-serviceGroups.forEach((serviceGroup) => {
-  serviceGroup.addEventListener("click", () => {
-    // Get the price details element contained within the pointer element
-    const priceDetailsElement = serviceGroup.querySelector(".price-details");
-    const openCloseMarker = serviceGroup.querySelector("img");
-
-    // Animate menu status marker
-    // openCloseMarker.style = "transform: rotate(180deg); animation: openPos 0.2s;";
-    openCloseMarker.classList.toggle("openPosDetails");
-
-    // Toggle the visibility of the price details element.
-    priceDetailsElement.classList.toggle("not-visible");
-  });
-});
 
 // Swap menu btn depending on it's position (opened, closed)
 menuBtnCont.addEventListener("click", () => {
@@ -52,9 +34,4 @@ footerElement.addEventListener("click", () => {
     mobileMenu.classList.add("hidden");
     menuBtn.src = "./assets/media/svg/menu.svg";
   }
-});
-
-// Toggle cookie note
-cookieBtn.addEventListener("click", () => {
-  document.querySelector(".cookie-desc").classList.toggle("hidden-desktop");
 });

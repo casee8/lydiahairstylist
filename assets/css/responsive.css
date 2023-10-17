@@ -3,6 +3,20 @@
     display: none;
   }
 
+  .modal {
+    width: 300px;
+    column-gap: 5px;
+    row-gap: 5px;
+  }
+
+  .modal-title {
+    font-size: 20px;
+  }
+
+  .modal-desc {
+    font-size: 18px;
+  }
+
   #menu-btn-container {
     display: block;
     position: absolute;
@@ -161,6 +175,20 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .hidden {
     display: none;
+  }
+
+  .modal {
+    width: 400px;
+    column-gap: 5px;
+    row-gap: 5px;
+  }
+
+  .modal-title {
+    font-size: 20px;
+  }
+
+  .modal-desc {
+    font-size: 18px;
   }
 
   #menu-btn-container {

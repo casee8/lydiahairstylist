@@ -2,6 +2,7 @@
   --primary-color: #6f5253;
   --light-color: #e4dada;
   --accent-color: #fffad0;
+  font-size: 16px;
 }
 
 * {
@@ -35,8 +36,9 @@ body {
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 1fr auto;
   width: 500px;
-  border: 3px solid #6f5253;
+  border: 1px solid #6f5253;
   border-radius: 15px;
+  box-shadow: -2px 2px 5px var(--primary-color);
   text-align: center;
   align-items: center;
   background-color: var(--accent-color);
@@ -215,18 +217,6 @@ hr {
   width: 40px;
 }
 
-/* @keyframes pulse {
-  0% {
-    transform:translateY(0) scale(1);
-  }
-  50% {
-    transform: translateY(0) scale(1.1);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-  }
-} */
-
 #cookie-btn {
   position: fixed;
   z-index: 3;
@@ -238,7 +228,6 @@ hr {
   width: 40px;
   height: 40px;
   box-shadow: -2px 2px 5px var(--primary-color);
-  /* animation: pulse 2s ease-in-out infinite; */
 }
 
 #cookie-btn:hover {
@@ -284,7 +273,7 @@ footer > p {
 
 h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 4em;
   font-weight: 400;
   padding: 40px 0;
 }
@@ -350,34 +339,6 @@ h1 {
 img[alt="price tag icon"] {
   width: 50px;
   margin: 20px;
-}
-
-/* =============== Product Page ================= */
-
-.olaplex-container {
-  margin: 10px 20%;
-}
-
-.wella-container {
-  margin: 40px 20%;
-}
-
-.olaplex-container,
-.wella-container {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  line-height: 150%;
-}
-
-.olaplex-desc,
-.wella-desc {
-  font-size: 25px;
-}
-
-.olaplex-desc > p,
-.wella-desc > p {
-  margin: 20px auto;
 }
 
 /* =============== Contact Page ================= */

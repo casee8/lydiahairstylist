@@ -123,7 +123,7 @@
   /* =============== Prices Page ================= */
 
   h1 {
-    font-size: 50px;
+    font-size: 3em;
     padding: 0 0 30px 0;
   }
 
@@ -132,35 +132,6 @@
   }
 
   .discounts {
-    font-size: 18px;
-  }
-
-  /* =============== Product Page ================= */
-
-  .olaplex-container {
-    flex-direction: column-reverse;
-    margin-top: 0;
-  }
-
-  .wella-container {
-    flex-direction: column;
-  }
-
-  .olaplex-container,
-  .wella-container {
-    margin: 40px 5%;
-    gap: 0;
-  }
-
-  .olaplex-container > img,
-  .wella-container > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .olaplex-desc,
-  .wella-desc {
     font-size: 18px;
   }
 
@@ -296,7 +267,7 @@
   /* =============== Prices Page ================= */
 
   h1 {
-    font-size: 50px;
+    font-size: 3em;
     padding: 0 0 30px 0;
   }
 
@@ -308,37 +279,38 @@
     font-size: 18px;
   }
 
-  /* =============== Product Page ================= */
-
-  .olaplex-container {
-    flex-direction: column-reverse;
-    margin: 0 5% 40px 5%;
-    gap: 0;
-  }
-
-  .wella-container {
-    flex-direction: column;
-    margin: 40px 5%;
-    gap: 0;
-  }
-
-  .olaplex-container > img,
-  .wella-container > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .olaplex-desc,
-  .wella-desc {
-    font-size: 18px;
-  }
-
   /* =============== Contact Page ================= */
 
   .call-email {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .intro {
+    margin: 50px 5%;
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  .img-grid-container {
+    margin: auto 5%;
+  }
+
+  .img-grid1, .img-grid2 {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-bottom: 10px;
+  }
+
+  .price-list {
+    margin: auto 20%;
+  }
+
+  .discounts {
+    font-size: 18px;
   }
 }
 

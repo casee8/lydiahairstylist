@@ -7,7 +7,7 @@ cookieBtn.addEventListener("click", () => {
   document.querySelector(".cookie-desc").classList.toggle("hidden-desktop");
 });
 
-setTimeout(showModal, 2000);
+setTimeout(showModal, 500);
 
 function showModal() {
   modal.classList.remove("hidden-desktop");

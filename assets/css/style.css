@@ -44,6 +44,16 @@ body {
   background-color: var(--accent-color);
   column-gap: 10px;
   row-gap: 10px;
+  animation: show-modal 0.5s;
+}
+
+@keyframes show-modal {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 .modal-title {

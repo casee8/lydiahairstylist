@@ -5,6 +5,19 @@ const mainElement = document.querySelector("main");
 const footerElement = document.querySelector("footer");
 let isMenuOpen = false;
 
+window.addEventListener("scroll", () => {
+  const logo = document.querySelector(".logo");
+  const nav = document.querySelector("nav");
+  nav.classList.add("shrinking-nav");
+  logo.classList.add("shrinking-logo");
+  mainElement.classList.add("reduce-padding");
+  // if (window.scrollY == 0) {
+  //   logo.classList.remove("shrinking-logo");
+  //   nav.classList.remove("shrinking-nav");
+  //   mainElement.classList.remove("reduce-padding");
+  // }
+});
+
 // Swap menu btn depending on it's position (opened, closed)
 menuBtnCont.addEventListener("click", () => {
   mobileMenu.classList.toggle("hidden");

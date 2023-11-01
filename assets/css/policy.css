@@ -1,0 +1,30 @@
+main {
+  width: 700px;
+  margin: auto auto 4em auto;
+  font-size: 1.3rem;
+}
+
+h2 {
+  padding: 2em 0 0.5em 0;
+}
+
+p,
+li {
+  line-height: 150%;
+}
+
+ul {
+  margin-left: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 150px;
+  }
+
+  main {
+    width: auto;
+    padding: 0 1em;
+    font-size: 1rem;
+  }
+}

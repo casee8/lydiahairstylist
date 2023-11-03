@@ -1,4 +1,8 @@
 @media screen and (max-width: 480px) {
+  main {
+    min-height: calc(100vh - 312px);
+  }
+
   .hidden {
     display: none;
   }
@@ -139,6 +143,10 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  main {
+    min-height: calc(100vh - 312px);
+  }
+
   .hidden {
     display: none;
   }
@@ -278,7 +286,6 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-
   .intro {
     margin: 50px 5%;
     font-weight: normal;
@@ -289,7 +296,8 @@
     margin: auto 5%;
   }
 
-  .img-grid1, .img-grid2 {
+  .img-grid1,
+  .img-grid2 {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     padding-bottom: 10px;

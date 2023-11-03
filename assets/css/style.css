@@ -292,9 +292,7 @@ footer > p {
 }
 
 .footer-links {
-  display: flex;
-  flex-direction: column;
-  margin-left: 50px;
+  margin: auto auto auto 50px;
 }
 
 .footer-links > a {

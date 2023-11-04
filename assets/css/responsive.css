@@ -119,6 +119,14 @@
     grid-area: 2 / 2 / 3 / 3;
   }
 
+  .social-media {
+    gap: 15px;
+  }
+
+  .social-media > a > img {
+    width: 30px;
+  }
+
   /* =============== Prices Page ================= */
 
   h1 {
@@ -260,6 +268,10 @@
   }
   .div6 {
     grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .social-media > a > img {
+    width: 30px;
   }
 
   /* =============== Prices Page ================= */

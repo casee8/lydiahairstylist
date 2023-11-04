@@ -217,12 +217,13 @@ button:hover {
 }
 
 hr {
-  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .social-media {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 25px;
   padding-right: 5px;
 }
@@ -231,21 +232,23 @@ hr {
   width: 40px;
 }
 
+.green-leaf-logo {
+  transform: scale(1.2);
+  position: relative;
+  bottom: 3px;
+}
+
 #cookie-btn {
   position: fixed;
   z-index: 3;
   bottom: 25px;
   left: 10px;
-  background: var(--light-color);
+  background: var(--accent-color);
   border-radius: 50%;
   padding: 2px;
   width: 40px;
   height: 40px;
   box-shadow: -2px 2px 5px var(--primary-color);
-}
-
-#cookie-btn:hover {
-  background: var(--accent-color);
 }
 
 @keyframes show-note {
@@ -263,7 +266,7 @@ hr {
 .cookie-desc {
   position: fixed;
   z-index: 3;
-  bottom: 20px;
+  bottom: 30px;
   left: 55px;
   width: 200px;
   padding: 5px;
@@ -297,6 +300,10 @@ footer > p {
 
 .footer-links > a {
   color: var(--accent-color);
+}
+
+.footer-hr {
+  border: 1px solid var(--accent-color);
 }
 
 .version {

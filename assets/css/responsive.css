@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px) {
   main {
-    min-height: calc(100vh - 312px);
+    min-height: calc(100vh - 75px);
   }
 
   h1 {
@@ -155,7 +155,7 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   main {
-    min-height: calc(100vh - 312px);
+    min-height: calc(100vh - 75px);
   }
 
   h1 {

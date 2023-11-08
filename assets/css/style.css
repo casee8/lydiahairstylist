@@ -22,8 +22,8 @@ body {
   user-select: none;
 }
 
-main {
-  min-height: calc(100vh - 384px);
+body > div {
+  min-height: calc(100vh - 86px);
 }
 
 h1 {

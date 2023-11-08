@@ -40,7 +40,7 @@
   }
 
   .menu-btn-scroll {
-    background: var(--accent-color);
+    background: rgba(227, 217, 217, 0.8);
     box-shadow: 0 0 5px var(--primary-color);
     border-radius: 5px;
     animation: menu-btn-animation 0.3s ease;
@@ -53,7 +53,7 @@
       border-radius: 0;
     }
     to {
-      background: var(--accent-color);
+      background: rgba(227, 217, 217, 0.8);
       box-shadow: 0 0 5px var(--primary-color);
       border-radius: 5px;
     }
@@ -191,7 +191,7 @@
   }
 
   .menu-btn-scroll {
-    background: var(--accent-color);
+    background: rgba(227, 217, 217, 0.8);
     box-shadow: 0 0 5px var(--primary-color);
     border-radius: 5px;
     animation: menu-btn-animation 0.3s ease;
@@ -204,7 +204,7 @@
       border-radius: 0;
     }
     to {
-      background: var(--accent-color);
+      background: rgba(227, 217, 217, 0.8);
       box-shadow: 0 0 5px var(--primary-color);
       border-radius: 5px;
     }
@@ -222,7 +222,7 @@
     flex-direction: column;
     width: 100%;
     padding-top: 10px;
-    background-color: #e4dada;
+    background-color: var(--light-color);
     border-bottom: 1px solid #6f5253;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;

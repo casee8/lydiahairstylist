@@ -3,26 +3,7 @@ const menuBtnCont = document.querySelector("#menu-btn-container");
 const menuBtn = document.querySelector("#menu-btn");
 const mainElement = document.querySelector("main");
 const footerElement = document.querySelector("footer");
-// const navBar = document.querySelector("nav");
 let isMenuOpen = false;
-// let navBarHeight = 195;
-// let currentScrollPos;
-
-// window.addEventListener("scroll", () => {
-//   currentScrollPos = Math.round(scrollY);
-//   if (currentScrollPos > 0) {
-//     navBarHeight -= currentScrollPos;
-//   } else if (currentScrollPos < 125) {
-//     navBarHeight -= 1;
-//   }
-// else if (currentScrollPos < 125) {
-//   scrollPos = 0;
-// } else {
-//   scrollPos = currentScrollPos
-// }
-// console.log("storedPos: " + navBarHeight + " scrollY: " + currentScrollPos);
-// navBar.style.height = scrollPos + 'px';
-// });
 
 // Swap menu btn depending on the menu's state (opened, closed)
 menuBtnCont.addEventListener("click", () => {

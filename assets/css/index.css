@@ -73,10 +73,13 @@
 
 .intro {
   margin: 40px 20%;
-  font-weight: bold;
   font-size: 20px;
   line-height: 150%;
   text-align: center;
+}
+
+.intro-hi {
+  font-size: 1.5em;
 }
 
 button {

@@ -42,3 +42,25 @@ window.addEventListener("scroll", () => {
     menuBtn.classList.remove("menu-btn-scroll");
   }
 });
+
+// Generate random values
+function random(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Create snowflakes
+function createSnowflakes() {
+  const snowflakes = document.getElementById("snowflakes");
+  for (let i = 0; i < 30; i++) {
+    const snowflake = document.createElement("div");
+    snowflake.innerHTML = "❄";
+    snowflake.style.left = `${random(0, 100)}vw`;
+    snowflake.style.animationDuration = `${random(5, 30)}s`;
+    snowflake.style.opacity = `${random(0.5, 0.9)}`;
+    snowflake.style.fontSize = `${random(10, 24)}px`;
+    snowflake.classList.add("snowflake");
+    snowflakes.appendChild(snowflake);
+  }
+}
+
+createSnowflakes();

@@ -55,17 +55,17 @@
 
 .modal-img2 {
   grid-area: 2/7/3/8;
-  max-width: 25px;
+  max-width: 40px;
   position: absolute;
   bottom: 2px;
 }
 
-.modal-img3 {
+/* .modal-img3 {
   grid-area: 1/6/2/7;
-  max-width: 40px;
+  max-width: 15px;
   position: absolute;
   top: 2px;
-}
+} */
 
 .modal-link {
   text-decoration: underline;

@@ -11,6 +11,22 @@
   padding: 0;
 }
 
+.snowflake {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  color: #fff;
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
 body {
   background-color: var(--light-color);
   color: var(--primary-color);

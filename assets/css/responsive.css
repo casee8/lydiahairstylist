@@ -17,7 +17,7 @@
   }
 
   .modal {
-    width: 300px;
+    width: 95vw;
     column-gap: 5px;
     row-gap: 5px;
   }
@@ -82,7 +82,6 @@
   .nav-links > a {
     position: relative;
     z-index: 3;
-    max-height: 195px;
     margin: 10px auto 10px auto;
     font-size: 23px;
     font-weight: 800;

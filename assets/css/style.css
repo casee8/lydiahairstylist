@@ -23,7 +23,7 @@
 
 @keyframes fall {
   to {
-    transform: translateY(200vh);
+    transform: translateY(150vh);
   }
 }
 

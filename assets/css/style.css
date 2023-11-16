@@ -13,7 +13,7 @@
 
 .snowflake {
   position: absolute;
-  top: 0;
+  top: -200px;
   z-index: 5;
   color: #fff;
   animation-name: fall;
@@ -23,7 +23,7 @@
 
 @keyframes fall {
   to {
-    transform: translateY(100vh);
+    transform: translateY(200vh);
   }
 }
 

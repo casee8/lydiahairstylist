@@ -51,13 +51,13 @@ function random(min, max) {
 // Create snowflakes
 function createSnowflakes() {
   const snowflakes = document.getElementById("snowflakes");
-  for (let i = 0; i < 30; i++) {
-    const snowflake = document.createElement("div");
-    snowflake.innerHTML = "❄";
-    snowflake.style.left = `${random(0, 100)}vw`;
-    snowflake.style.animationDuration = `${random(5, 30)}s`;
-    snowflake.style.opacity = `${random(0.5, 0.9)}`;
-    snowflake.style.fontSize = `${random(10, 24)}px`;
+  for (let i = 0; i < 50; i++) {
+    const snowflake = document.createElement("img");
+    snowflake.src = 'assets/media/svg/snowflake.svg';
+    snowflake.style.left = `${random(5, 95)}vw`;
+    snowflake.style.animationDuration = `${random(5, 40)}s`;
+    snowflake.style.opacity = `${random(0.5, 1)}`;
+    snowflake.style.width = `${random(10, 24)}px`;
     snowflake.classList.add("snowflake");
     snowflakes.appendChild(snowflake);
   }

@@ -53,8 +53,8 @@ function createSnowflakes() {
   const snowflakes = document.getElementById("snowflakes");
   for (let i = 0; i < 50; i++) {
     const snowflake = document.createElement("img");
-    snowflake.src = 'assets/media/svg/snowflake.svg';
-    snowflake.alt = 'snowflake'
+    snowflake.src = 'assets/media/svg/heart.svg';
+    snowflake.alt = 'heart'
     snowflake.style.left = `${random(5, 95)}vw`;
     snowflake.style.animationDuration = `${random(5, 40)}s`;
     snowflake.style.opacity = `${random(0.5, 1)}`;

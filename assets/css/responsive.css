@@ -16,10 +16,14 @@
     display: none;
   }
 
-  .modal {
+  /* .modal {
     width: 95vw;
     column-gap: 5px;
     row-gap: 5px;
+  } */
+
+  .valentin_img {
+    width: 95vw;
   }
 
   .modal-title {
@@ -174,10 +178,14 @@
     display: none;
   }
 
-  .modal {
+  /* .modal {
     width: 400px;
     column-gap: 5px;
     row-gap: 5px;
+  } */
+
+  .valentin_img {
+    width: 400px;
   }
 
   .modal-title {

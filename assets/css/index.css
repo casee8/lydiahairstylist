@@ -4,18 +4,18 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: 1fr auto;
-  width: 500px;
+  grid-template-rows: 1fr auto; */
+  /* width: 500px;
   border: 1px solid #6f5253;
   border-radius: 15px;
-  box-shadow: -2px 2px 5px var(--primary-color);
-  text-align: center;
-  align-items: center;
-  background-color: var(--accent-color);
-  column-gap: 10px;
-  row-gap: 10px;
+  box-shadow: -2px 2px 5px var(--primary-color); */
+  /* text-align: center; */
+  /* align-items: center; */
+  /* background-color: var(--accent-color); */
+  /* column-gap: 10px; */
+  /* row-gap: 10px; */
   animation: show-modal 0.5s;
 }
 
@@ -28,16 +28,29 @@
   }
 }
 
+.valentin_img {
+  width: 500px;
+  border-radius: 15px;
+  border: 2px solid var(--primary-color);
+  box-shadow: -2px 2px 5px var(--primary-color);
+}
+
 .modal-title {
   grid-area: 1/3/2/6;
   font-size: 25px;
   padding-bottom: 5px;
 }
 
-.modal-close-btn {
+/* .modal-close-btn {
   grid-area: 1/7/2/8;
   margin: auto;
   cursor: pointer;
+}*
+
+.modal-close-btn {
+  position: relative;
+  right: 5px;
+  top: 5px;
 }
 
 .modal-desc {
